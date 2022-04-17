@@ -1,0 +1,14 @@
+#!/bin/bash
+
+function function_1(){
+x=10
+while (($x>=0))
+do
+	sleep 0.2
+	echo $x
+	((x--))
+done
+}
+set -x 
+function_1
+set +x

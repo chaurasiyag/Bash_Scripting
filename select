@@ -1,0 +1,8 @@
+!/bin/bash
+animals=(cat dog bird frog turtlr)
+select item in "${animals[@]}"
+do
+	echo "Selected animal $item"
+	echo "Selected number $REPLY"
+done
+

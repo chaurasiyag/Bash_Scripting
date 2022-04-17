@@ -1,0 +1,5 @@
+#!/bin/bash
+x=9
+p=4
+echo "scale=5; $((x/p))"
+echo $((x*p))

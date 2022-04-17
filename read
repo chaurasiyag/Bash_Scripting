@@ -1,0 +1,7 @@
+echo "Type nAME"
+read name
+echo $name
+read 
+echo $REPLY
+read -p "lkjah" name
+echo $name

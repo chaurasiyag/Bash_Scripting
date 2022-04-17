@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "Enter Directory Name : "
+read rddir
+if [ -d "./$rddir" ]
+then
+	echo "Directory already exists"
+else
+	`mkdir ./$rddir`
+	echo "Directory is created"
+fi
+

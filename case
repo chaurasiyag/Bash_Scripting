@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo -n "ENter the name of animal"
+read animal
+echo -n "The name of animal is :"
+case $animal in
+
+	chicken)
+		echo "chicken:bird";;
+	butterfly)
+		echo "butterfly:insect";;
+	cat | dog | lion )
+		echo "animal";;
+	*)
+		echo "Unknown";;
+esac

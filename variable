@@ -1,0 +1,14 @@
+#!/bin/bash
+ a=3
+echo $a
+echo $BASH
+echo $BASH_VERSION
+echo $1 $2 $3
+echo $@
+echo $#
+echo $0
+echo 1:$1
+echo 2:$2
+shift 2
+echo 1:$1
+echo 2:$2

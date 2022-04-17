@@ -1,0 +1,12 @@
+echo "enetr character"
+read letter
+case $letter in 
+	[a-z])
+		echo "$letter is between a-x";;
+	[0-9])
+		echo "$letter is between 0-9";;
+	?)
+		echo "$letter is special character";;
+	*)
+		echo "$letter is unknown";;
+esac

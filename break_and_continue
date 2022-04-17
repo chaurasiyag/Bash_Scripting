@@ -1,0 +1,16 @@
+#!/bin/bash
+x=50
+for ((x=0;x<=100;x++))
+do 
+	if [ $x -eq 60 ]
+	then
+	echo "continue $x"
+	continue
+	fi
+	if [ $x -eq 90 ]
+	then
+	echo "Break"
+	break
+	fi
+	echo $x
+done

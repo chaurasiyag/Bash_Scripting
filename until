@@ -1,0 +1,10 @@
+#!/bin/bash
+x=20
+until (($x<=10))
+do
+	echo $x
+	((x--))
+	sleep 1
+	clear
+	sleep 1
+done
